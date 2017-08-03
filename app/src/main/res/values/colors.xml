@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorBackground">#AE6A42</color>
+    <color name="colorBackgroundIn">#B97A57</color>
+    <color name="colorBackgroundCategory">#F6EFEB</color>
+    <color name="colorBackgroundAll">#E5CFC3</color>
+
+    <color name="colorTabSelect">#DFC4B4</color>
+
+    <color name="list_divider">#979797</color>
+    <color name="list_item_selected_state">#F4F6F6</color>
+    <color name="list_item_normal_state">#FFFFFF</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+
+    <color name="colorFacebook">#264E96</color>
+    <color name="colorTransperant">#00000000</color>
+
+    <color name="colorRattingbarDisable">#000000</color>
+    <color name="colorRattingbarEnable">#AE6A42</color>
+
+    <color name="colorBorderCategoryDisable">#DBBFAD</color>
+    <color name="colorButton">#000000</color>
+</resources>
