@@ -46,7 +46,6 @@ public class AdapterMultipleSelect extends RecyclerView.Adapter<AdapterMultipleS
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-
         View itemLayoutView = LayoutInflater.from(parent.getContext()).inflate(R.layout.itemview_multiple_select, null);
         ViewHolder viewHolder = new ViewHolder(itemLayoutView);
 
@@ -67,7 +66,6 @@ public class AdapterMultipleSelect extends RecyclerView.Adapter<AdapterMultipleS
             viewHolder.ivUnFavourite.setVisibility(View.VISIBLE);
             viewHolder.ivFavourite.setVisibility(View.GONE);
         }
-
     }
 
     @Override
@@ -136,7 +134,7 @@ public class AdapterMultipleSelect extends RecyclerView.Adapter<AdapterMultipleS
         return selectedItems.size();
     }
 
-    //TODO SELECTEDITEMS ID GET
+    //TODO SELECTED ITEMS ID GET
     public List<Integer> getSelectedItems() {
         List<Integer> items = new ArrayList<>(selectedItems.size());
         for (int i = 0; i < selectedItems.size(); ++i) {
@@ -146,7 +144,6 @@ public class AdapterMultipleSelect extends RecyclerView.Adapter<AdapterMultipleS
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
-
         public TextView tvCategoryName;
         private final LinearLayout llvStatusBorder;
         private final ImageView ivUnFavourite, ivFavourite;
@@ -166,9 +163,7 @@ public class AdapterMultipleSelect extends RecyclerView.Adapter<AdapterMultipleS
 
                     //TODO SELECTED ITEMS CLICK CALL
                     toggleSelection(category.getId());
-
                     selectCategory(category.getId(), category.getName(), category.getSearch(), category.getImage());
-
                     if (getSelectedItems().contains(alCategory.get(getAdapterPosition()).getId())) {
 
                         //viewHolder.llvStatusBorder.setBackgroundColor(Color.parseColor("#AE6A42"));
